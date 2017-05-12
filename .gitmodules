@@ -1,0 +1,3 @@
+[submodule "xCore"]
+	path = xCore
+	url = https://github.com/xinabox/xCore.git
