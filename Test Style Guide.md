@@ -9,7 +9,7 @@
 > Pro-Tip: Put extra information, hints, colloquial explanations, tips in quote boxes
 
 
-# Lab Information
+## Lab Information
 
 At the beginning of each lab, include a list of required items.
 Computer with Arduino IDE is assumed, don't put it in the list
