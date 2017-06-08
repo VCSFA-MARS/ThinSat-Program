@@ -19,6 +19,7 @@ Lab 1: Hello World on OLED
 * Basic code structure, syntaxes
 * Have them upload a code, minor modifications
 * No deeper learning, because this lab will be a lot of new info already
+> OLED colors are defined by hardware. Library includes fonts, but its a pain in the ass to get to work.
 
 Lab x: Light Sensor and OLED
 * How does the chip work?
