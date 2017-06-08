@@ -12,6 +12,9 @@ Set Up and Install Arduino IDE
 Install xChip Libraries
 * This could technically be combined with the last tutorial, but they're both a bit time consuming.
 
+Program basics
+* Basically steal from the arduino lesson about structure syntax and troubleshooting
+
 ## Labs
 > How many labs should there be?
 
