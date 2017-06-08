@@ -24,6 +24,7 @@ Lab x: Light Sensor
 
 Lab x: Temperature, Humidity etc
 * ouput values to Serial monitor (It's really similar otherwise to the light sensor lab)
+* Serial monitor basics, 
 
 
 
