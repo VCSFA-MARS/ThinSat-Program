@@ -32,5 +32,29 @@ xSystem when referring to the whole system of stuff. "The xSystem is designed to
 
 Capitalize All Important Words in a Title or Header, including numbered lists with a paragraph below the number.
 
+## Code Formatting
 
+When referring to code keywords (variable types, function names, etc) in tutorial text, use `inline code` style by enclosing the keyword in the \` backtick character. 
+
+> Pro-tip: Enclose code blocks in \`\`\` and include "Arduino" for code syntax highlighting
+
+
+```
+```Arduino
+// Sample Code Block
+void setup() {
+  Serial.begin();
+}
+```
+
+
+Produces :
+
+
+```Arduino
+// Sample Code Block
+void setup() {
+  Serial.begin();
+}
+```
 
