@@ -20,25 +20,22 @@ Lab 1: Hello World on OLED
 * Have them upload a code, minor modifications
 * No deeper learning, because this lab will be a lot of new info already
 
-Lab x: Light Sensor
+Lab x: Light Sensor and OLED
 * How does the chip work?
 * output values from sensor to OLED, UVA/UVB  and visible
 * DL: Libraries
 
-Lab x: Temperature, Humidity etc
+Lab x: Temperature Sensor Logic over OLED
+* Cover the sensor (using if/them) have the OLED pop up with something like "It's Hot" and "It's cold"
+* DL: Logic statements
+
+Lab x: Temperature and serial monitor
 * How does the chip work?
-* ouput values to Serial monitor (It's really similar otherwise to the light sensor lab)
 * Serial monitor basics, 
 * DL: Baud Rate
 
-Lab x: Wifi
-
-* This seems tricksy...
+Lab x: Light sensor and Wifi to serial monitor
+* This seems tricksy... Not sure about all of our capabilites... Does this need batteries?
 * DL: How wifi works
 
-Lab x: Light Sensor Logic 
-* Cover the sensor (using if/them) have the OLED pop up with soemthing like "It's Dark" and "It's light"
-* need to find out how the light sensor sends back values
-* DL: Logic gates
-
-Lab Final: Use ALL THE CHIPS!
+Lab Final: Use ALL THE CHIPS! OVER WIFI! 
