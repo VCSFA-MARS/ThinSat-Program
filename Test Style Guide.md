@@ -11,6 +11,8 @@
 
 ## Lab Information
 
+Lab Titles: "Lab X: Doing Something"
+
 At the beginning of each lab, include a list of required items.
 Computer with Arduino IDE is assumed, don't put it in the list
 Not a 'capitalized' list.
