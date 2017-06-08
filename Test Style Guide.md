@@ -21,3 +21,6 @@ To perform this lab you will need:
 2. CW01 xChip- WiFi module and processor 
 3. OD01 xChip- OLED display module
 4. 2 connector pieces
+
+(Include a horizontal line after the BOM)
+*** 
