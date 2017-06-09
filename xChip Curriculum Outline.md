@@ -1,30 +1,31 @@
 ## Front matter
-Introduction
+Introduction (COMPLETE, REVIEWED)
 * What is an xChip? Where do they come from? 
 
-xChip Glossary (possibly break this up, Possibly forgoe this and put the info in the assocaited lab?)
+xChip Glossary 
+* (possibly break this up, Possibly forgoe this and put the info in the assocaited lab?)
 * compilation of each chips capabilities, characteristics, and a link to the associated lab 
 * Each lab's materials list should link back here.
 
-Set Up and Install Arduino IDE
+Set Up and Install Arduino IDE (COMPLETE, NEEDS REVIEW)
 * The software platform used to code xCHips. Install the program and drivers.
 
-Install xChip Libraries
+Install xChip Libraries (COMPLETE, NEEDS REVIEW)
 * This could technically be combined with the last tutorial, but they're both a bit time consuming.
 
-Program basics
+Program basics (WIP JAKE)
 * Basically steal from the arduino lesson about structure syntax and troubleshooting
 
 ## Labs
 > How many labs should there be?
 
-Lab 1: Hello World on OLED
+Lab 1: Hello World on OLED (WIP BUJOLD)
 * Basic code structure, syntaxes
 * Have them upload a code, minor modifications
 * No deeper learning, because this lab will be a lot of new info already
 > OLED colors are defined by hardware. Library includes fonts, but its a pain in the ass to get to work.
 
-Lab x: Light Sensor and OLED
+Lab x: Light Sensor and OLED 
 * How does the chip work?
 * output values from sensor to OLED, UVA/UVB  and visible
 * DL: Libraries
