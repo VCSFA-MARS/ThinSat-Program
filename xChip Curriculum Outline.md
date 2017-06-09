@@ -50,4 +50,5 @@ Other Deeper Learning:
 (Unecessary to make the labs work, but if you're intersted here's how coding works!)
 (Won't distract from the main lesson targeted at beginners)
 Data Types
+Bad code will still compile
 
