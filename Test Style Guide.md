@@ -28,6 +28,7 @@ To perform this lab you will need:
 > Pro-Tip: Put extra information, hints, colloquial explanations, tips in quote boxes
 
 xChips instead of x-Chips, X-Chips, X-CHIPS, XCHIPS, XChips
+
 xSystem when referring to the whole system of stuff. "The xSystem is designed to ...."
 
 Capitalize All Important Words in a Title or Header, including numbered lists with a paragraph below the number.
