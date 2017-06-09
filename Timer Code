@@ -33,6 +33,7 @@ OD01.set1X();   // set display text to normal size
 count++;                        //This is equalavlent to the total number of seconds the program has been running
 
 hour = count / 3600;            // This calculates the number of hours in our counter.
+                                // Integer math dictates that we will only get whole number answers
 temp =  count - (hour * 3600);  // Subtract the number of seconds in an hour from the total number of seconds, saved in a temporary counter
                                 // If the number of hours is zero, then temp will equal count
 minute = temp / 60;             // The number of minutes in our temporary value.
