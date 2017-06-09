@@ -45,8 +45,7 @@ When referring to code keywords (variable types, function names, etc) in tutoria
 // Sample Code Block
 void setup() {
   Serial.begin();
-}
-```
+}```
 ```
 
 
