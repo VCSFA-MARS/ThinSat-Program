@@ -40,12 +40,13 @@ When referring to code keywords (variable types, function names, etc) in tutoria
 > Pro-tip: Enclose code blocks in \`\`\` and include "Arduino" for code syntax highlighting
 
 
-```
-```Arduino
-// Sample Code Block
-void setup() {
-  Serial.begin();
-}```
+```Markdown
+    ```Arduino
+    // Sample Code Block
+    void setup() {
+      Serial.begin();
+    }
+    ```
 ```
 
 
