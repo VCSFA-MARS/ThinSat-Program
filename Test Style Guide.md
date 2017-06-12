@@ -65,3 +65,6 @@ void setup() {
 Problem: I am hungry!
 
 Solution: Eat a snack.
+
+## To link a File
+No spaces in file names. Use dashes. Save with file extension. 
