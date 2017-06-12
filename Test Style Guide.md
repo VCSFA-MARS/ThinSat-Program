@@ -37,7 +37,7 @@ Capitalize All Important Words in a Title or Header, including numbered lists wi
 
 When referring to code keywords (variable types, function names, etc) in tutorial text, use `inline code` style by enclosing the keyword in the \` backtick character. 
 
-> Pro-tip: Enclose code blocks in \`\`\` and include "Arduino" for code syntax highlighting
+> **Pro-tip:** Enclose code blocks in \`\`\` and include "Arduino" for code syntax highlighting
 
 
 ```Markdown
