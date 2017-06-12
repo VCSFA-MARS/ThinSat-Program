@@ -1,5 +1,5 @@
 ## Front matter
-Introduction (COMPLETE, REVIEWED)
+Introduction
 * What is an xChip? Where do they come from? 
 
 xChip Glossary 
@@ -7,19 +7,19 @@ xChip Glossary
 * compilation of each chips capabilities, characteristics, and a link to the associated lab 
 * Each lab's materials list should link back here.
 
-Set Up and Install Arduino IDE (COMPLETE, NEEDS REVIEW)
+Set Up and Install Arduino
 * The software platform used to code xCHips. Install the program and drivers.
 
-Install xChip Libraries (COMPLETE, NEEDS REVIEW)
+Install xChip Libraries 
 * This could technically be combined with the last tutorial, but they're both a bit time consuming.
 
-Program basics (WIP JAKE)
+Program basics 
 * Basically steal from the arduino lesson about structure syntax and troubleshooting
 
 ## Labs
 > How many labs should there be?
 
-Lab 1: Hello World on OLED (WIP BUJOLD)
+Lab 1: Hello World on OLED 
 * Basic code structure, syntaxes
 * Have them upload a code, minor modifications
 * No deeper learning, because this lab will be a lot of new info already
