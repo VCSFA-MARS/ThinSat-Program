@@ -60,3 +60,8 @@ void setup() {
 }
 ```
 
+## Troubleshooting File
+
+Problem: I am hungry!
+
+Solution: Eat a snack.
