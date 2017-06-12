@@ -67,4 +67,4 @@ Problem: I am hungry!
 Solution: Eat a snack.
 
 ## To link a File
-No spaces in file names. Use dashes. Save with file extension. 
+No spaces in file names. Use dashes. Save with file extension. File names are start lowercase.
