@@ -25,7 +25,7 @@ To perform this lab you will need:
 *** 
 
 ## General Formatting
-> Pro-Tip: Put extra information, hints, colloquial explanations, tips in quote boxes
+> **Pro-Tip:** Put extra information, hints, colloquial explanations, tips in quote boxes. Add bold style to the beginning "category," e.g. Try-It:, Note:, Pro-tip:, etc.
 
 xChips instead of x-Chips, X-Chips, X-CHIPS, XCHIPS, XChips
 
