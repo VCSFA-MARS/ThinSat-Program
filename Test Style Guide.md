@@ -21,6 +21,10 @@ To perform this lab you will need:
 3. OD01 xChip- OLED display module
 4. 2 connector pieces
 
+### Deeper Understanding
+
+Use this title at the end of a lab to include the "Deeper Understanding" section. 
+
 (Include a horizontal line after the BOM)
 *** 
 
