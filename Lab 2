@@ -13,7 +13,7 @@ void setup() {
 
 Wire.begin(2,14); // Start the I2C Communication with xSystem
 OLED.begin();     // Turn on the OLED display
-SL01.begin();     // Turn on the SL01 sensor
+SL01.begin();     // Start the  SL01 Sensor
 
 OD01.set2X();     // Set the font size to large
   
@@ -29,7 +29,7 @@ void loop() {
 // This section will repeat indefinitely
 
 OD01.clear();   // Clear the display
-SL01.poll();	  // Poll Sensor for collect data
+SL01.poll();    // Poll Sensor for collect data
 
 OD01.println("Light Level: ");  
 OD01.print(SL01.getLUX());      //Read information from sensor and print it
