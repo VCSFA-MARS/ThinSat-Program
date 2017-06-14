@@ -17,38 +17,59 @@ Program basics
 * Basically steal from the arduino lesson about structure syntax and troubleshooting
 
 ## Labs
-> How many labs should there be?
+> How many labs should there be? brian said ~10 D:
 
 Lab 1: Hello World on OLED 
 * Basic code structure, syntaxes
 * Have them upload a code, minor modifications
-* No deeper learning, because this lab will be a lot of new info already
+* DU: How LED screen works
 > OLED colors are defined by hardware. Library includes fonts, but its a pain in the ass to get to work.
 
-Lab x: Light Sensor and OLED 
+Lab 2: Light Sensor on OLED 
 * How does the chip work?
 * output values from sensor to OLED, UVA/UVB  and visible
-* DL: Libraries
+* DU: Logic statements 
 
-Lab x: Temperature Sensor Logic over OLED
-* Cover the sensor (using if/them) have the OLED pop up with something like "It's Hot" and "It's cold"
-* DL: Logic statements
+Lab 3: Altitude/pressure over OLED
+* Cool logic?
+* DU: Librarires, bad code will still compile
 
-Lab x: Temperature and serial monitor
-* How does the chip work?
-* Serial monitor basics, 
-* DL: Baud Rate
+Lab 4: Temperature/Humidity over Serial 
+* Serial monitor basics
+* Make a video
+* DU: Baud rate
 
-Lab x: Light sensor and Wifi to serial monitor
+Lab 5: UVA/UVB over serial monitor + OLED
+* OLED "Wear sunscreen!" logic
+* serial monitor, "raw" data
+* DU: the spectrum. where UVA/UVB lives
+
+Lab 6: UV and Wifi + OLED 
 * This seems tricksy... Not sure about all of our capabilites... Does this need batteries?
-* DL: How wifi works
+* outside lab 
+* DU: How wifi works
 
-Lab Final: Use ALL THE CHIPS! OVER WIFI! 
+Lab 7: Use ALL THE CHIPS! on OLED + wifi
+* Full weather station
+* Dashboard
+* DU: weather?
+
+Radio lab 8
+* Introduce radio over Serial
+Radio lab 9
+* Dashboard
+Radio lab 10
+* Dashboard
+
+Lab x: Programming the LED to show different colors
 
 
-Other Deeper Learning:
+
+Other Deeper Understanding:
 (Unecessary to make the labs work, but if you're intersted here's how coding works!)
 (Won't distract from the main lesson targeted at beginners)
-Data Types
+Data Types > binary/bits/size
 Bad code will still compile
-
+I2C communication
+loops
+logic gates
