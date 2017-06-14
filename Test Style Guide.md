@@ -37,7 +37,7 @@ xSystem when referring to the whole system of stuff. "The xSystem is designed to
 
 Capitalize All Important Words in a Title or Header, including numbered lists with a paragraph below the number.
 
-## Code Formatting
+## Code Formatting in wiki
 
 When referring to code keywords (variable types, function names, etc) in tutorial text, use `inline code` style by enclosing the keyword in the \` backtick character. 
 
@@ -86,3 +86,18 @@ It is best practice to include a description of the image in the `[]` portion of
 ```
 
 > **Pro-tip:** The description/alt-text is rendered in place of the image if the image link is broken or if the user has images disabled on their browser.
+
+# Code Style Guide
+
+include header
+///////////////////////////
+// This program runs rainbow snakes
+// Uses OD01, CW01, IP01 xChips
+// Written by E. Bujold
+//////////////////////////
+
+#include <xCore.h>  //This library makes the processor usable
+#include <xSL01.h>  //This library makes the light sensor usable
+#include <xOD01.h>  //This library makes the OLED screen usable
+
+Comment as many lines as isn't redundant *within* the file. Use previous codes for examples.
