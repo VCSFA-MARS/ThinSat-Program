@@ -72,3 +72,17 @@ Solution: Eat a snack.
 
 ## To link a File
 No spaces in file names. Use dashes. Save with file extension. File names are start lowercase.
+
+File extensions should be all lowercase wherever possible.
+
+Linking to any files in a subfolder requires the use of relative paths and takes the form "foldername/file.ext" - note the forward slash (frontslash `/`). Windows default is backslash `\` but it will accept a frontslash.
+
+## Image markdown
+
+It is best practice to include a description of the image in the `[]` portion of the image markdown. This gets translated into image alt-text and helps with search indexing and accessibility for the sight-impaired.
+
+```Markdown
+![x-chip test assembly](xinabox-images/first-xchip-test.jpg)
+```
+
+> **Pro-tip:** The description/alt-text is rendered in place of the image if the image link is broken or if the user has images disabled on their browser.
