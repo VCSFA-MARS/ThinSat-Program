@@ -1,7 +1,6 @@
 ///////////////////////////////////////////////
 // This program counts and displays how long it has been running on the OD01 OLED
-// I Got distracted and accidentally made a timer program
-// Dunno if we want to add it to the tutorials
+// Uses OD01, CW01, and IP01 chips
 // Written by E. Bujold
 //////////////////////////////////////////////
 
