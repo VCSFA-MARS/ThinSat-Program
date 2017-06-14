@@ -90,6 +90,7 @@ It is best practice to include a description of the image in the `[]` portion of
 # Code Style Guide
 
 include header
+```Arduino
 ///////////////////////////
 // This program runs rainbow snakes
 // Uses OD01, CW01, IP01 xChips
@@ -99,5 +100,6 @@ include header
 #include <xCore.h>  //This library makes the processor usable
 #include <xSL01.h>  //This library makes the light sensor usable
 #include <xOD01.h>  //This library makes the OLED screen usable
+```
 
 Comment as many lines as isn't redundant *within* the file. Use previous codes for examples.
