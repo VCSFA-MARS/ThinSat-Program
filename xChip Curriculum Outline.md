@@ -31,8 +31,10 @@ Lab 2: Light Sensor on OLED
 * DU: Logic statements 
 
 Lab 3: Altitude/pressure over OLED
-* Cool logic?
-* DU: Librarires, bad code will still compile
+* Cool loops? Cool loops.
+* intro to the SW01 and measurement vs. calculation.
+* dislaying multiple readings over the LED
+* DU: Loops and moving averages. How an Altimeter works
 
 Lab 4: Temperature/Humidity over Serial 
 * Serial monitor basics
