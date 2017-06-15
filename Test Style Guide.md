@@ -24,8 +24,11 @@ To perform this lab you will need:
 ### Types of Notes
 
 > FUN FACT: 
+
 >TRY IT:
+
 >NOTE:
+
 >THINK ABOUT IT:
 
 ### Deeper Understanding
