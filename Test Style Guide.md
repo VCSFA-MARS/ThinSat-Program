@@ -97,9 +97,16 @@ It is best practice to include a description of the image in the `[]` portion of
 
 > **Pro-tip:** The description/alt-text is rendered in place of the image if the image link is broken or if the user has images disabled on their browser.
 
+***
 # Code Style Guide
 
-include header
+## Program Headers
+
+All code will include a description of the program's behavior, the xChip modules required, and the author. Additional information may be added but is not required. All `include` statements will be at the top of the program, immediately after the opening comment block.
+
+Use the following header as a template:
+
+
 ```Arduino
 ///////////////////////////
 // This program runs rainbow snakes
@@ -113,3 +120,22 @@ include header
 ```
 
 Comment as many lines as isn't redundant *within* the file. Use previous codes for examples.
+
+### Function Definitions
+
+When defining functions other than `setup` and `loop`, add comments describing the behavior of the function on the first line after the opening curly brace. The closing brace should be on its own line and at the same indent level as the function definition. Ensure all code within a function's `{ }` block are indented. The default indentation for Arduino IDE is two (2) spaces.
+
+```Arduino
+void updateDisplay() {
+  // This function updates the OLED display from the global variables
+
+  OD01.clear();
+  
+  // Print weather data
+  OD01.print("Temp: ");
+  OD01.println(Temp);
+  
+  OD01.print("Humid: ");
+  OD01.println(Humid);
+}
+```
