@@ -27,12 +27,12 @@ void loop() {
   // This is the body of the code. It will repeat indefinitely.
 
   OD01.clear();                   //Clear the OLED display
-  float pressure = 0;             //declare pressure variable and initialize as zero
+
   SW01.poll();                    //Tell the SW01 sensor to read and store data
-  pressure = (SW01.getPressure()/100);  //set pressure variable equal to the current pressure reading divided by 100
+
   OD01.println("Pressure:");
-  OD01.print(pressure);           //display the pressure on the OLED screen
-  OD01.println(" hPa");
+  OD01.print(SW01.getPressure()); //display the pressure on the OLED screen
+  OD01.println(" Pa");
 
   delay(2000);                    //pause for two seconds before displaying new reading
 }
