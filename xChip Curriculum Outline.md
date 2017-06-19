@@ -75,3 +75,4 @@ Bad code will still compile
 I2C communication
 loops
 logic gates
+error- sensor error, sources of error
