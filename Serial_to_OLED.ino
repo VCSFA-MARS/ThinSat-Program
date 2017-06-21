@@ -24,9 +24,9 @@ void setup() {
   OD01.println("Open the Serial");
   OD01.println("Monitor and type 'go'");
 
-while (!Serial.available()){
-  //Wait for serial monitor to be opened.
-  delay(1000);
+//Wait for serial monitor to be opened.
+  while (!Serial.available()){
+    delay(1000);
   }
   
 //Type any message into the Serial Monitor to establish communication
