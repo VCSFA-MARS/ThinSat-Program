@@ -1,7 +1,7 @@
 /////////////////////////////////////
 // Establish Serial Monitor Connections
 // Send text to OLED
-// Uses SW01, CW01, OD01 and IP01 xChips
+// Uses CW01, OD01 and IP01 xChips
 // Written by E. Bujold
 /////////////////////////////////////
 
