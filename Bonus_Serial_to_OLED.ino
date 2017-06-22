@@ -1,7 +1,7 @@
 /////////////////////////////////////
 // Establish Serial Monitor Connections
 // Send text to OLED
-// Uses CW01, OD01 and IP01 xChips
+// Uses SW01, CW01, OD01 and IP01 xChips
 // Written by E. Bujold
 /////////////////////////////////////
 
@@ -24,9 +24,9 @@ void setup() {
   OD01.println("Open the Serial");
   OD01.println("Monitor and type 'go'");
 
-//Wait for serial monitor to be opened.
-  while (!Serial.available()){
-    delay(1000);
+while (!Serial.available()){
+  //Wait for serial monitor to be opened.
+  delay(1000);
   }
   
 //Type any message into the Serial Monitor to establish communication
@@ -40,7 +40,7 @@ void setup() {
 
   delay (1000);   //Dramatic pause
 
-  Serial.println("Type a new message!");    //Initial prompt 
+  Serial.println("Type a message!");    //Initial prompt 
   Serial.println("~~~~~~~~~~~~~~~~~~~");    //Decorative divider 
 
   OD01.clear();
