@@ -1,0 +1,77 @@
+/////////////////////////////////////
+// Send data from Serial Monitor to xSystem
+// Uses SW01, CW01, OD01 and IP01 xChips
+// Written by E. Bujold
+/////////////////////////////////////
+
+  #include <xCore.h>    //This library allows us to use the CW01 processor
+  #include <xOD01.h>    //This library allows us to use the OD01 screen
+  #include <xSW01.h>    //This library allows us to use the weather sensor
+  #include <xSL01.h>    //This library makes the light sensor usable
+
+void setup() {
+  Wire.begin(2,14);     //Starts the xChips talking to each other
+  Serial.begin(9600);   //Define serial monitor connection parameters
+  OLED.begin();         //Turn on the OLED Screen
+  SL01.begin();         //Turn on the light sensor
+
+//These instructions will display on the OLED screen
+//These instructions establish a serial monitor connection
+  OD01.println("Flick the switch");
+  OD01.println("from B to A");
+  OD01.println();
+  OD01.println("Open the Serial");
+  OD01.println("Monitor and type 'go'");
+
+while (!Serial.available()){
+//Wait for serial monitor to be opened.
+  delay(1000);
+  }
+  
+//Type any message into the Serial Monitor to establish communication
+  Serial.readString();
+
+//This prints to the serial monitor   
+  Serial.println("    Connection Established    ");
+  Serial.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+  Serial.println("       XinaBox Serial UV      ");
+  Serial.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"); 
+
+  delay (1000);   //Dramatic pause
+
+  Serial.println("This program displays UV radiation measurements");
+  Serial.println("Type 'a' for UVA, type 'b' for UVB");                 //Initial prompt 
+  Serial.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");    //Decorative divider 
+
+  OD01.clear();   //Clear OLED screen
+  OD01.set2X();   //Set font size
+}
+
+void loop() {
+//Get user input for the data they want. 
+//Display data to Serial Monitor
+//Display text to OLED
+
+  if (Serial.available() > 0) {   //If the serial monitor is open, do the following
+    int text = Serial.read();     //Get text from user
+    SL01.poll();                  //Read data from SL01 sensor
+    
+    switch(text){
+    //Depending on input text, do one of the following
+      case 'a':
+        OD01.clear();
+        OD01.print("    UVA");
+        Serial.print("UVA Intensity: ");
+        Serial.print(SL01.getUVA());
+        Serial.println(" μW/cm^2");
+        break;
+      case 'b': 
+        OD01.clear();
+        OD01.print("    UVB");
+        Serial.print("UVB Intensity: ");
+        Serial.print(SL01.getUVB());
+        Serial.println(" μW/cm^2");
+        break;
+    }
+  }
+}
