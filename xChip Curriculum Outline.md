@@ -46,10 +46,19 @@ Lab 5: UVA/UVB over serial monitor + OLED
 * serial monitor, "raw" data
 * DU: the spectrum. where UVA/UVB lives
 
+/* 
+This isn't a thing
 Lab 6: UV and Wifi + OLED 
 * This seems tricksy... Not sure about all of our capabilites... Does this need batteries?
 * outside lab 
 * DU: How wifi works
+*/
+
+Lab 6: Set up dashboard and teach to flash
+Download flash tool
+do the thing
+Go to website
+do more thing
 
 Lab 7: Use ALL THE CHIPS! on OLED + wifi
 * Full weather station
