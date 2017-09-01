@@ -4,9 +4,6 @@
 [submodule "xCW01"]
 	path = xCW01
 	url = https://github.com/xinabox/xCW01.git
-[submodule "xSW01"]
-	path = xSW01
-	url = https://github.com/xinabox/xSW01.git
 [submodule "xSL01"]
 	path = xSL01
 	url = https://github.com/xinabox/xSL01.git
