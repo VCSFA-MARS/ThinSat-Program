@@ -12,6 +12,7 @@ function usage()
 
 # Define default values for the script
 
+ESPTOOLPATH="../esptool/"
 BAUDRATE=115200
 BINARYFILE=XINABOX_CW01_V1.300.bin
 USERBIN=0
@@ -72,7 +73,7 @@ fi
 # This builds the espytool.py command and requires sudo. 
 # Perhaps future versions should require running  this script with sudo?
 
-sudo python esptool.py --baud $BAUDRATE --port $PORT write_flash -fm dio 0x00000 $BINARYFILE
+sudo python "$ESPTOOLPATH"esptool.py --baud $BAUDRATE --port $PORT write_flash -fm dio 0x00000 $BINARYFILE
 
 
 
