@@ -6,6 +6,8 @@ function usage()
 	echo "a binary file you specify. The script defaults to 115200 baud and the"
 	echo "latest XINABOX binary packaged in this release."
 	echo " "
+	echo "Set your IP01 switches to B and DCE."
+	echo " "
 	echo "Usage : $0 [-p <port>][-b <baud rate>][-f <binary file>]"
 }
 
