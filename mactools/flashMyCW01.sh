@@ -2,6 +2,7 @@
 
 function usage()
 {
+	echo " "
 	echo "This script calls the espytool python script to flash your CW-01 with"
 	echo "a binary file you specify. The script defaults to 115200 baud and the"
 	echo "latest XINABOX binary packaged in this release."
@@ -9,6 +10,7 @@ function usage()
 	echo "Set your IP01 switches to B and DCE."
 	echo " "
 	echo "Usage : $0 [-p <port>][-b <baud rate>][-f <binary file>]"
+	echo " "
 }
 
 
@@ -19,7 +21,7 @@ BAUDRATE=115200
 BINARYFILE=XINABOX_CW01_V1.315.bin
 USERBIN=0
 
-while getopts p:f:b: parm ; do
+while getopts p:f:b:h parm ; do
 case $parm in
 
 	p)
@@ -50,6 +52,10 @@ case $parm in
 				exit 1
 		fi
 		
+		;;
+	h)
+		usage
+		exit 0
 		;;
 	*)
 		usage
