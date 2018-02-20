@@ -36,4 +36,4 @@ You will need to specify the port with the -p option
 
 The above command will default to the latest binary and use the default baud rate and attempt to connect to the CW01 over usb serial at /dev/cu.usbmodem12345.
 
-If you have issues, rememebr to set your IP01 switches to A and DCE!
+If you have issues, rememebr to set your IP01 switches to B and DCE!
