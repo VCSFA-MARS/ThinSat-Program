@@ -16,7 +16,7 @@ function usage()
 
 ESPTOOLPATH="../esptool/"
 BAUDRATE=115200
-BINARYFILE=XINABOX_CW01_V1.300.bin
+BINARYFILE=XINABOX_CW01_V1.315.bin
 USERBIN=0
 
 while getopts p:f:b: parm ; do
