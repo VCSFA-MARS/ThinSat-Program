@@ -2,5 +2,5 @@
 
 For tutorials and classroom labs, see the [wiki](https://github.com/VCSFA-MARS/ThinSat-Program/wiki):
 
-For Technical Support please email: support@thinsat.org
+For Technical Support please email: thinsat-team@vaspacemail.org
 
